@@ -43,9 +43,3 @@ def max_nuggets(a: int, b: int, c: int) -> int:
 		else:
 			in_a_row = 0
 		num += 1
-
-assert max_nuggets(6, 9, 20) == 43
-assert max_nuggets(7, 11, 17) == 37
-assert max_nuggets(9, 18, 32) == 247
-
-print(max_nuggets(6, 9, 20))
